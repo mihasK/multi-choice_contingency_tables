@@ -60,7 +60,7 @@ single_tab_content = dbc.Card(dbc.CardBody([
     className="mt-3",
 )
 
-from try_dash.cross_bd import CBD_Types
+from datasha.cross_bd import CBD_Types
 
 
 cross_tab_content = dbc.Card(dbc.CardBody([
