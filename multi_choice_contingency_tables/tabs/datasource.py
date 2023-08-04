@@ -22,7 +22,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = 'multi_choice_contingency_tables/data'
 
 files = os.listdir(DATA_DIR)
-# ic(files)
+ic(files)
 files = [f for f in files if (
     f.endswith('pickle') 
     or
