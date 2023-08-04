@@ -17,11 +17,12 @@ from collections import namedtuple
 from itertools import chain
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_DIR = os.path.join(BASE_DIR, '..', 'data/')
+# DATA_DIR = os.path.join(BASE_DIR, '..', 'data/')
 
+DATA_DIR = 'multi_choice_contingency_tables/data'
 
 files = os.listdir(DATA_DIR)
-
+# ic(files)
 files = [f for f in files if (
     f.endswith('pickle') 
     or
