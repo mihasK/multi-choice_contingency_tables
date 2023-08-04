@@ -24,9 +24,9 @@ vis_tab = dbc.Tab(
             
             dbc.Row([
                         dbc.Col([
-                                dbc.Label("Total respodents"),
+                                dbc.Label("Sample size"),
                                 dbc.Input(placeholder="Input goes here...", type="number", value=1000, id='total_N'),
-                                dbc.FormText("Total number affects widths of confidence interval"),
+                                dbc.FormText("Total number of items in sample affects widths of confidence interval"),
                         ]),
                         dbc.Col([
                             dbc.Label("Confidence level"),
@@ -75,7 +75,7 @@ vis_tab = dbc.Tab(
 
         
     ])), 
-    label='Playground',
+    label='Proportions Playground',
 )
 
 

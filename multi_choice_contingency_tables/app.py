@@ -244,7 +244,7 @@ def update_cross_breakdown(
     
     def _format_cell(value):
         
-        if table_type == CBD_Types.PERCENT_DEVIATIONS:
+        if table_type == CBD_Types.PERCENT_DIFF_FROM_TOTAL:
             if conf_intervals_switch:
                 low,up = value['percent_diff_CI']
                 return f'{low:+.1f}..{up:+.1f} %'        
@@ -310,7 +310,7 @@ def update_cross_breakdown(
     scale_lims = (0,100)
 
     
-    if table_type in (CBD_Types.PERCENT_DEVIATIONS, ):
+    if table_type in (CBD_Types.PERCENT_DIFF_FROM_TOTAL, ):
         scale_lims = (0,30)
         if conf_intervals_switch:
             attr_for_color = lambda x: utils.take_closest_to_zero(x['percent_diff_CI'])

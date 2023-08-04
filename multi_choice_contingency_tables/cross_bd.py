@@ -18,7 +18,7 @@ class CBD_Types(StrEnum):
     
     PERCENTS = auto()
     
-    PERCENT_DEVIATIONS = auto()
+    PERCENT_DIFF_FROM_TOTAL = auto()
     
     RISK_DIFFERENCE = auto()
     RISK_RATIO = auto()
@@ -201,7 +201,7 @@ def get_cross_breakdown(df, f1,f2, cbd_type=CBD_Types.PERCENTS) -> pd.DataFrame:
             
         table[header_name] = table.index.map(_calc_for_cell)
         
-        # if cbd_type == CBD_Types.PERCENT_DEVIATIONS:
+        # if cbd_type == CBD_Types.PERCENT_DIFF_FROM_TOTAL:
         #     table[header_name] -= total_column
         
         
