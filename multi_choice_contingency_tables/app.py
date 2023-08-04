@@ -60,7 +60,7 @@ single_tab_content = dbc.Card(dbc.CardBody([
     className="mt-3",
 )
 
-from datasha.cross_bd import CBD_Types
+from multi_choice_contingency_tables.cross_bd import CBD_Types
 
 
 cross_tab_content = dbc.Card(dbc.CardBody([

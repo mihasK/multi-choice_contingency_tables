@@ -1,3 +1,3 @@
-web: gunicorn  datasha.app:server
+web: gunicorn  multi_choice_contingency_tables.app:server
 
 

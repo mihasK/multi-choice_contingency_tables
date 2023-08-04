@@ -5,9 +5,9 @@ import pandas as pd
 import numpy as np
 from icecream import ic
 from dash import dash_table
-from datasha import utils
-from datasha.utils import AnyOrNone
-from datasha import cross_bd
+from multi_choice_contingency_tables import utils
+from multi_choice_contingency_tables.utils import AnyOrNone
+from multi_choice_contingency_tables import cross_bd
 import os
 import json
 import dash_daq as daq
