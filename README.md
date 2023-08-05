@@ -21,6 +21,8 @@ Cross-breakdown currently displays the following statistics:
 * p-value for $\chi^2$ test of independence
 * Cramer's V association coefficient
 
+![cross_bd](docs/cross_bd.gif)
+
 
 UI also provides some visualizations of how confidence intervals behave depending on parameters.
 
