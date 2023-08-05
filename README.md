@@ -1,9 +1,9 @@
-# multi_choice_contingency_tables
+# Multi-choice contingency tables
 
-Simple dashboard to analyze contingency tables for categorical data.
+Simple dashboard built with [Dash](https://dash.plotly.com/) to analyze contingency tables for categorical data.
 Allows to see significance and effect size of association between categorical variables.
 Especially useful for analyzing survey results.
-A special feature of our approach is using of *multi-choice cross-breakdowns*.
+A special feature of our approach is using of **multi-choice cross-breakdowns**.
 Compared to standard contingency tables, where each variable value is exclusive,
 we allow multi-value variables, and display them on the same cross-table.
 As an example of such variables, you can imagine surveys with multi-choice questions.
@@ -14,7 +14,7 @@ allows more compact representation without big loss in informativeness.
 
 
 # Data
-Example data is taken from here: https://www.kaggle.com/datasets/stackoverflow/stack-overflow-2018-developer-survey?resource=download&select=survey_results_schema.csv
+Example data is taken from this [kaggle dataset](https://www.kaggle.com/datasets/stackoverflow/stack-overflow-2018-developer-survey?resource=download&select=survey_results_schema.csv)
 
 But you can put your own dataset in the data directory.
 Requirements:
