@@ -1,6 +1,6 @@
 # Multi-choice contingency tables
 
-Simple dashboard built with [Dash](https://dash.plotly.com/) to analyze contingency tables for categorical data.
+Simple dashboard built with [Dash](https://dash.plotly.com/) to analyze [contingency tables](https://en.wikipedia.org/wiki/Contingency_table) for categorical data.
 Allows to see significance and effect size of association between categorical variables.
 Especially useful for analyzing survey results.
 A special feature of our approach is using of **multi-choice cross-breakdowns**.
